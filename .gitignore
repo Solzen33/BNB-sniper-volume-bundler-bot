@@ -1,38 +1,14 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+node_modules
+.env
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+# Hardhat files
+/cache
+/artifacts
 
-# testing
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
 /coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-.env*.local
-
-# vercel
-.vercel
-stopwatch.zip
-stopwatch.rar
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+/coverage.json

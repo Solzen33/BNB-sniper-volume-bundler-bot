@@ -1,26 +1,53 @@
 {
-  "name": "stopwatch",
-  "version": "0.1.0",
-  "private": true,
+  "name": "bnb-sniper-bundler-volume-bot",
+  "version": "2.0.0",
+  "description": "Optimized EVM BNB Sniper Bundler Volume Bot with advanced features",
+  "main": "optimized-bundler.js",
+  "keywords": [
+    "ethereum",
+    "bnb",
+    "defi",
+    "trading-bot",
+    "uniswap",
+    "pancakeswap",
+    "mev",
+    "bundler"
+  ],
+  "author": "Optimized Bot Developer",
+  "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "^14.2.3",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-select": "^5.8.0",
-    "styled-components": "^6.1.11"
+    "start": "node optimized-bundler.js",
+    "dev": "node optimized-bundler.js",
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "fork": "npx hardhat node --network hardhat",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3",
-    "typescript": "^5"
-  }
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@uniswap/v3-sdk": "^3.10.2",
+    "hardhat": "^2.19.5",
+    "eslint": "^8.57.0"
+  },
+  "dependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@openzeppelin/contracts": "^4.9.6",
+    "dotenv": "^16.4.7",
+    "axios": "^1.6.0",
+    "ethers": "^6.8.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/evm-bnb-sniper-bundler-volume-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/evm-bnb-sniper-bundler-volume-bot/issues"
+  },
+  "homepage": "https://github.com/your-username/evm-bnb-sniper-bundler-volume-bot#readme"
 }
