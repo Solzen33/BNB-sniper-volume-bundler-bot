@@ -2,8 +2,7 @@
 **Professional Sniper, Bundler & Volume Automation for PancakeSwap and Four.meme**
 
 # 👨‍💻 Author
-### 📞 Telegram: [FroganBee](https://t.me/froganbee_sol)   
-https://t.me/froganbee_sol
+### 📞 Telegram: [solzen33](https://t.me/solzen33) 
 
 A completely rewritten and optimized high-performance trading bot infrastructure built for the **BNB Smart Chain**, featuring enterprise-grade architecture, comprehensive error handling, and real-time monitoring. Designed with precision, speed, and enterprise-grade reliability — ideal for developers, traders, and liquidity engineers.
 
